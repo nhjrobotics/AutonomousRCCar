@@ -13,3 +13,6 @@ I plan to keep working on this project once I finish yr12, hopefully implementin
 # Timeline
 
 This is where I shall put a timeline of my project + images
+
+Photo:
+![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Lego/IMG_3541.JPG "test image")
