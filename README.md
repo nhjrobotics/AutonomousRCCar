@@ -8,7 +8,8 @@ I plan to keep working on this project once I finish yr12, hopefully implementin
 
 # Timeline
 
-I started out by investigating potential solutions using LEGO technic. I decided to use this because I have a lot of experience in creating LEGO structures, and because it allows for rapid prototyping without the use of specialised equipment such as a 3D printer. 
+I started out by investigating potential solutions using LEGO technic. I decided to use this because I have a lot of experience in creating LEGO structures, and because it allows for rapid prototyping without the use of specialised equipment such as a 3D printer. I used LEGO Mindstorms and an Arduino to build in some primitive automation. I struggled to get the LEGO motors to work properly due to the proprietary design of the system.
+![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Lego/IMG_3541.JPG "LEGO technic")
+![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Lego/60915021328__D29A656D-DBFE-4A1C-A47E-D4608F7D8852.JPG "LEGO Mindstorms + Arduino")
 
-Photo:
-![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Lego/IMG_3541.JPG "test image")
+While this was great. It was an incredibly tedious process to get working, and the automation options were limited. The next phase 
