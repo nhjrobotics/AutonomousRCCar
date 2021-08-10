@@ -36,3 +36,5 @@ Putting all of this together, currently the vehicle can drive around being contr
 I haven't yet started working on the autonomous side of the system, but I should be able to get to work on it after I have completed yr12. 
 
 There were many issues that I encountered when building the vehicle, battery life being a big one. At the time of writing I have bought the parts to build a voltmeter which will be able to measure the battery life of the car. This will allow the vehicle to shut off when it runs out of power, preventing the Lipo batteries from being damaged due to overdischarging the vehicle. 
+
+Noah Jackson 10/08/21
