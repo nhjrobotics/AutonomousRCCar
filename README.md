@@ -39,4 +39,4 @@ There were many issues that I encountered when building the vehicle, battery lif
 
 **Noah Jackson 10/08/21**
 
-![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Driving/IMG_4063.JPG "RC Car")
+![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Driving/P8100011.JPG "RC Car")
