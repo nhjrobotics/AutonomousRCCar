@@ -17,4 +17,10 @@ While this did end up working. It was an incredibly tedious process to get worki
 
 ![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Motor%20testing/IMG_4055.JPG "RC Car + Raspberry Pi")
 
-Also included in the design was a PWM control PiHat. This is a baord which is used to control up to 16 PWM outputs from the Raspberry Pi, which only natively supports 2, and even then requires lots of configuring that I wasn't able to do at the time. 
+Also included in the design was a PWM control PiHat. This is a baord which is used to control up to 16 PWM outputs from the Raspberry Pi, which only natively supports 2, and even then requires lots of configuring that I wasn't able to do at the time. With some trial and error with the programming, I was able to get the Raspberry Pi to control the motors. 
+
+The next stage of the project was to implement a control system that could operate the car in real time and provide video feedback so I could control the car from any location. I used PyGame to access the control surfaces of a PS4 controller so I was able to use that to drive the car. To do this, I used a network connection with the Pi and the python library socket to send signals to the car wirelessly from the PS4 controller. This was quite complex, and involved having to pair the two devices together every time I wanted to start the program. Hopefully in the future I can get this process to work a bit better. 
+
+![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Driving/IMG_4061.JPG "RC Car driving")
+
+While all this was happening, I worked on installing ultrasonic sensors on the vehicle 
