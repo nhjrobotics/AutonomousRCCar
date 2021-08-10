@@ -26,4 +26,7 @@ The next stage of the project was to implement a control system that could opera
 While all this was happening, I worked on installing ultrasonic sensors on the vehicle. These, like with parking sensors in real cars, act to protect the vehicle from accidently running into objects. This is especially important for autonomous vehicles as it gives them a second set of "eyes" that are able to view the world around the car. This, in combination with an advanced computer vision system, allows the RC car to be able to drive it self around and work out where to go. To get the 5V ultasonic sensors to work with the 3.3V Raspberry Pi GPIO I had to incorporate a voltage divider circuit into the leads that are run to the front and back of the vehicle to power the sensors. 
 
 ![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Sensor%20testing/62520187954__BD491C7E-84AC-4A95-9669-4C41C5F97B2F.JPG "Breadboard testing")
-![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Sensor%20testing/64448525829__33A9B29A-5AAD-4355-AF6B-94271845A72C.HEIC "Mounted on the car")
+
+The other part of the sensor suite, the camera mast, then had to be built so the Raspberry Pi camera is able to pan and tilt so that the operator (and later the AI) can see what is happening around the vehicle. I found a 3D printed mount for small hobby servos that could hold the Raspberry Pi camera, and then mounted this system on the back of the RC car. This was controlled by the PS4 controller.
+
+![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Camera%20mast/IMG_4192.JPG "Camera Mast")
