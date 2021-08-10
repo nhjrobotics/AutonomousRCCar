@@ -33,4 +33,6 @@ The other part of the sensor suite, the camera mast, then had to be built so the
 
 Putting all of this together, currently the vehicle can drive around being controlled by a laptop with a PS4 controller. If the car is less than 300mm from an object, and travelling towards the object, the car will stop and won't let the user crash it. The user can also currently use the camera mast to gain a sense of the car's surroundings and can control it accordingly.
 
-I haven't yet started working on the autonomous side of the system, but I should be able to get to work on it after I have completed yr12. There were many issues that I encountered when building the vehicle, battery life being a big one. At the time of writing I have bought the parts to build a voltmeter which will be able to measure the battery life of the car. This will allow the vehicle to shut off when it runs out of power, preventing the Lipo batteries from being damaged due to overdischarging the vehicle. 
+I haven't yet started working on the autonomous side of the system, but I should be able to get to work on it after I have completed yr12. 
+
+There were many issues that I encountered when building the vehicle, battery life being a big one. At the time of writing I have bought the parts to build a voltmeter which will be able to measure the battery life of the car. This will allow the vehicle to shut off when it runs out of power, preventing the Lipo batteries from being damaged due to overdischarging the vehicle. 
