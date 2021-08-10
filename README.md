@@ -21,7 +21,7 @@ Also included in the design was a PWM control PiHat. This is a baord which is us
 
 The next stage of the project was to implement a control system that could operate the car in real time and provide video feedback so I could control the car from any location. I used PyGame to access the control surfaces of a PS4 controller so I was able to use that to drive the car. To do this, I used a network connection with the Pi and the python library socket to send signals to the car wirelessly from the PS4 controller. This was quite complex, and involved having to pair the two devices together every time I wanted to start the program. Hopefully in the future I can get this process to work a bit better. 
 
-![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Driving/IMG_4061.JPG "RC Car driving")
+![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/78aebbf07dedb1c6a64e2b46f53298a3acfa05a6/Photos/Driving/IMG_4061.JPG "RC Car driving")
 
 While all this was happening, I worked on installing ultrasonic sensors on the vehicle. These, like with parking sensors in real cars, act to protect the vehicle from accidently running into objects. This is especially important for autonomous vehicles as it gives them a second set of "eyes" that are able to view the world around the car. This, in combination with an advanced computer vision system, allows the RC car to be able to drive it self around and work out where to go. To get the 5V ultasonic sensors to work with the 3.3V Raspberry Pi GPIO I had to incorporate a voltage divider circuit into the leads that are run to the front and back of the vehicle to power the sensors. 
 
