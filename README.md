@@ -38,3 +38,5 @@ I haven't yet started working on the autonomous side of the system, but I should
 There were many issues that I encountered when building the vehicle, battery life being a big one. At the time of writing I have bought the parts to build a voltmeter which will be able to measure the battery life of the car. This will allow the vehicle to shut off when it runs out of power, preventing the Lipo batteries from being damaged due to overdischarging the vehicle. 
 
 **Noah Jackson 10/08/21**
+
+![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Driving/IMG_4063.JPG "RC Car")
