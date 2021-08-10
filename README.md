@@ -9,7 +9,12 @@ I plan to keep working on this project once I finish yr12, hopefully implementin
 # Timeline
 
 I started out by investigating potential solutions using LEGO technic. I decided to use this because I have a lot of experience in creating LEGO structures, and because it allows for rapid prototyping without the use of specialised equipment such as a 3D printer. I used LEGO Mindstorms and an Arduino to build in some primitive automation. I struggled to get the LEGO motors to work properly due to the proprietary design of the system.
+
 ![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Lego/IMG_3541.JPG "LEGO technic")
 ![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Lego/60915021328__D29A656D-DBFE-4A1C-A47E-D4608F7D8852.JPG "LEGO Mindstorms + Arduino")
 
-While this was great. It was an incredibly tedious process to get working, and the automation options were limited. The next phase 
+While this did end up working. It was an incredibly tedious process to get working, and the automation options were limited. The next phase of the project involved using an RC car that I had lying around as the basis for an autonomous car platform. I experimented with using an Arduino to provide the correct PWM output to the ESC that powers the motor driving the wheels, and the servo controlling the steering. The problem with the use of an arduino is that it has very limited processing power, especially for the types of operations that it would need to perform. Due to this limitation, I moved onto using a Raspberry Pi to control the vehicle. 
+
+![alt text](https://github.com/Rewind2B4/raspberry_pi_rc_car/blob/master/Photos/Motor%20testing/IMG_4055.JPG "RC Car + Raspberry Pi")
+
+Also included in the design was a PWM control PiHat. This is a baord which is used to control up to 16 PWM outputs from the Raspberry Pi, which only natively supports 2, and even then requires lots of configuring that I wasn't able to do at the time. 
