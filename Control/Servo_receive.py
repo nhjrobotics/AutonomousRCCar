@@ -1,6 +1,6 @@
 """This program was created to be in conjunction with Servo_control_multi.
 
-Written by Noah Jackson, with help from the internet..."""
+Written by Rewind2B4, with help from the internet..."""
 
 import RPi.GPIO as GPIO
 import time
