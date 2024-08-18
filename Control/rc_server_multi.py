@@ -1,6 +1,6 @@
 """This program was created to be in conjunction with Servo_receive.
 
-Written by Noah Jackson, with help from the internet..."""
+Written by Rewind2b4, with help from the internet..."""
 
 import json
 import pygame.display
